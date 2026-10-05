@@ -21,7 +21,7 @@ pc.script.createLoadingScreen(function (app) {
     var IS_REPLAY = false;
     try {
         IS_REPLAY = sessionStorage.getItem('oceanembedReplay') === '1';
-        if (IS_REPLAY) sessionStorage.removeItem('edolusReplay');
+        if (IS_REPLAY) sessionStorage.removeItem('oceanembedReplay');
     } catch (e) {}
 
     var REVEAL_MIN_MS    = IS_REPLAY ? 0 : 3000;  // min time fully black (0 on replay — the logo draw still gates the reveal)
