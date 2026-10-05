@@ -1,0 +1,9 @@
+{
+  "name": "OceanEmbed",
+  "short_name": "OceanEmbed",
+  "start_url": "./",
+  "display": "fullscreen",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "AI-powered ocean intelligence and subsurface temperature prediction dashboard."
+}
